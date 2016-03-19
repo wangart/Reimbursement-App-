@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6216AE51C9DB3E5006DD95E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6216AE41C9DB3E5006DD95E /* AppDelegate.swift */; };
+		C6216AE71C9DB3E5006DD95E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6216AE61C9DB3E5006DD95E /* ViewController.swift */; };
+		C6216AEA1C9DB3E5006DD95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6216AE81C9DB3E5006DD95E /* Main.storyboard */; };
+		C6216AEC1C9DB3E5006DD95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6216AEB1C9DB3E5006DD95E /* Assets.xcassets */; };
+		C6216AEF1C9DB3E5006DD95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6216AED1C9DB3E5006DD95E /* LaunchScreen.storyboard */; };
+		C6216AFA1C9DB3E5006DD95E /* Reimbursement_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6216AF91C9DB3E5006DD95E /* Reimbursement_AppTests.swift */; };
+		C6216B051C9DB3E5006DD95E /* Reimbursement_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6216B041C9DB3E5006DD95E /* Reimbursement_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6216AF61C9DB3E5006DD95E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6216AD91C9DB3E5006DD95E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6216AE01C9DB3E5006DD95E;
+			remoteInfo = "Reimbursement App";
+		};
+		C6216B011C9DB3E5006DD95E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6216AD91C9DB3E5006DD95E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6216AE01C9DB3E5006DD95E;
+			remoteInfo = "Reimbursement App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6216AE11C9DB3E5006DD95E /* Reimbursement App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reimbursement App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6216AE41C9DB3E5006DD95E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6216AE61C9DB3E5006DD95E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6216AE91C9DB3E5006DD95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6216AEB1C9DB3E5006DD95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6216AEE1C9DB3E5006DD95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6216AF01C9DB3E5006DD95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6216AF51C9DB3E5006DD95E /* Reimbursement AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reimbursement AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6216AF91C9DB3E5006DD95E /* Reimbursement_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reimbursement_AppTests.swift; sourceTree = "<group>"; };
+		C6216AFB1C9DB3E5006DD95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6216B001C9DB3E5006DD95E /* Reimbursement AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reimbursement AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6216B041C9DB3E5006DD95E /* Reimbursement_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reimbursement_AppUITests.swift; sourceTree = "<group>"; };
+		C6216B061C9DB3E5006DD95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6216ADE1C9DB3E5006DD95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6216AF21C9DB3E5006DD95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6216AFD1C9DB3E5006DD95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6216AD81C9DB3E5006DD95E = {
+			isa = PBXGroup;
+			children = (
+				C6216AE31C9DB3E5006DD95E /* Reimbursement App */,
+				C6216AF81C9DB3E5006DD95E /* Reimbursement AppTests */,
+				C6216B031C9DB3E5006DD95E /* Reimbursement AppUITests */,
+				C6216AE21C9DB3E5006DD95E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6216AE21C9DB3E5006DD95E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6216AE11C9DB3E5006DD95E /* Reimbursement App.app */,
+				C6216AF51C9DB3E5006DD95E /* Reimbursement AppTests.xctest */,
+				C6216B001C9DB3E5006DD95E /* Reimbursement AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6216AE31C9DB3E5006DD95E /* Reimbursement App */ = {
+			isa = PBXGroup;
+			children = (
+				C6216AE41C9DB3E5006DD95E /* AppDelegate.swift */,
+				C6216AE61C9DB3E5006DD95E /* ViewController.swift */,
+				C6216AE81C9DB3E5006DD95E /* Main.storyboard */,
+				C6216AEB1C9DB3E5006DD95E /* Assets.xcassets */,
+				C6216AED1C9DB3E5006DD95E /* LaunchScreen.storyboard */,
+				C6216AF01C9DB3E5006DD95E /* Info.plist */,
+			);
+			path = "Reimbursement App";
+			sourceTree = "<group>";
+		};
+		C6216AF81C9DB3E5006DD95E /* Reimbursement AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6216AF91C9DB3E5006DD95E /* Reimbursement_AppTests.swift */,
+				C6216AFB1C9DB3E5006DD95E /* Info.plist */,
+			);
+			path = "Reimbursement AppTests";
+			sourceTree = "<group>";
+		};
+		C6216B031C9DB3E5006DD95E /* Reimbursement AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6216B041C9DB3E5006DD95E /* Reimbursement_AppUITests.swift */,
+				C6216B061C9DB3E5006DD95E /* Info.plist */,
+			);
+			path = "Reimbursement AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6216AE01C9DB3E5006DD95E /* Reimbursement App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6216B091C9DB3E5006DD95E /* Build configuration list for PBXNativeTarget "Reimbursement App" */;
+			buildPhases = (
+				C6216ADD1C9DB3E5006DD95E /* Sources */,
+				C6216ADE1C9DB3E5006DD95E /* Frameworks */,
+				C6216ADF1C9DB3E5006DD95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reimbursement App";
+			productName = "Reimbursement App";
+			productReference = C6216AE11C9DB3E5006DD95E /* Reimbursement App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6216AF41C9DB3E5006DD95E /* Reimbursement AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6216B0C1C9DB3E5006DD95E /* Build configuration list for PBXNativeTarget "Reimbursement AppTests" */;
+			buildPhases = (
+				C6216AF11C9DB3E5006DD95E /* Sources */,
+				C6216AF21C9DB3E5006DD95E /* Frameworks */,
+				C6216AF31C9DB3E5006DD95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6216AF71C9DB3E5006DD95E /* PBXTargetDependency */,
+			);
+			name = "Reimbursement AppTests";
+			productName = "Reimbursement AppTests";
+			productReference = C6216AF51C9DB3E5006DD95E /* Reimbursement AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6216AFF1C9DB3E5006DD95E /* Reimbursement AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6216B0F1C9DB3E5006DD95E /* Build configuration list for PBXNativeTarget "Reimbursement AppUITests" */;
+			buildPhases = (
+				C6216AFC1C9DB3E5006DD95E /* Sources */,
+				C6216AFD1C9DB3E5006DD95E /* Frameworks */,
+				C6216AFE1C9DB3E5006DD95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6216B021C9DB3E5006DD95E /* PBXTargetDependency */,
+			);
+			name = "Reimbursement AppUITests";
+			productName = "Reimbursement AppUITests";
+			productReference = C6216B001C9DB3E5006DD95E /* Reimbursement AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6216AD91C9DB3E5006DD95E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hack the North";
+				TargetAttributes = {
+					C6216AE01C9DB3E5006DD95E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C6216AF41C9DB3E5006DD95E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C6216AE01C9DB3E5006DD95E;
+					};
+					C6216AFF1C9DB3E5006DD95E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C6216AE01C9DB3E5006DD95E;
+					};
+				};
+			};
+			buildConfigurationList = C6216ADC1C9DB3E5006DD95E /* Build configuration list for PBXProject "Reimbursement App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6216AD81C9DB3E5006DD95E;
+			productRefGroup = C6216AE21C9DB3E5006DD95E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6216AE01C9DB3E5006DD95E /* Reimbursement App */,
+				C6216AF41C9DB3E5006DD95E /* Reimbursement AppTests */,
+				C6216AFF1C9DB3E5006DD95E /* Reimbursement AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6216ADF1C9DB3E5006DD95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6216AEF1C9DB3E5006DD95E /* LaunchScreen.storyboard in Resources */,
+				C6216AEC1C9DB3E5006DD95E /* Assets.xcassets in Resources */,
+				C6216AEA1C9DB3E5006DD95E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6216AF31C9DB3E5006DD95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6216AFE1C9DB3E5006DD95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6216ADD1C9DB3E5006DD95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6216AE71C9DB3E5006DD95E /* ViewController.swift in Sources */,
+				C6216AE51C9DB3E5006DD95E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6216AF11C9DB3E5006DD95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6216AFA1C9DB3E5006DD95E /* Reimbursement_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6216AFC1C9DB3E5006DD95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6216B051C9DB3E5006DD95E /* Reimbursement_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6216AF71C9DB3E5006DD95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6216AE01C9DB3E5006DD95E /* Reimbursement App */;
+			targetProxy = C6216AF61C9DB3E5006DD95E /* PBXContainerItemProxy */;
+		};
+		C6216B021C9DB3E5006DD95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6216AE01C9DB3E5006DD95E /* Reimbursement App */;
+			targetProxy = C6216B011C9DB3E5006DD95E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6216AE81C9DB3E5006DD95E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6216AE91C9DB3E5006DD95E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6216AED1C9DB3E5006DD95E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6216AEE1C9DB3E5006DD95E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6216B071C9DB3E5006DD95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6216B081C9DB3E5006DD95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6216B0A1C9DB3E5006DD95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reimbursement App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HTN.Reimbursement-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6216B0B1C9DB3E5006DD95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Reimbursement App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HTN.Reimbursement-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6216B0D1C9DB3E5006DD95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Reimbursement AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HTN.Reimbursement-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reimbursement App.app/Reimbursement App";
+			};
+			name = Debug;
+		};
+		C6216B0E1C9DB3E5006DD95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Reimbursement AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HTN.Reimbursement-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reimbursement App.app/Reimbursement App";
+			};
+			name = Release;
+		};
+		C6216B101C9DB3E5006DD95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Reimbursement AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HTN.Reimbursement-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Reimbursement App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C6216B111C9DB3E5006DD95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Reimbursement AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HTN.Reimbursement-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Reimbursement App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6216ADC1C9DB3E5006DD95E /* Build configuration list for PBXProject "Reimbursement App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6216B071C9DB3E5006DD95E /* Debug */,
+				C6216B081C9DB3E5006DD95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6216B091C9DB3E5006DD95E /* Build configuration list for PBXNativeTarget "Reimbursement App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6216B0A1C9DB3E5006DD95E /* Debug */,
+				C6216B0B1C9DB3E5006DD95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6216B0C1C9DB3E5006DD95E /* Build configuration list for PBXNativeTarget "Reimbursement AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6216B0D1C9DB3E5006DD95E /* Debug */,
+				C6216B0E1C9DB3E5006DD95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6216B0F1C9DB3E5006DD95E /* Build configuration list for PBXNativeTarget "Reimbursement AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6216B101C9DB3E5006DD95E /* Debug */,
+				C6216B111C9DB3E5006DD95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6216AD91C9DB3E5006DD95E /* Project object */;
+}
